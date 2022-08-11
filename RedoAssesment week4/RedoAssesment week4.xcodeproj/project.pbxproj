@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCAD71B26BD873500B7BDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD71A26BD873500B7BDCF /* AppDelegate.swift */; };
+		FCCAD71D26BD873500B7BDCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD71C26BD873500B7BDCF /* SceneDelegate.swift */; };
+		FCCAD72226BD873500B7BDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCAD72026BD873500B7BDCF /* Main.storyboard */; };
+		FCCAD72426BD873600B7BDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCAD72326BD873600B7BDCF /* Assets.xcassets */; };
+		FCCAD72726BD873600B7BDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCAD72526BD873600B7BDCF /* LaunchScreen.storyboard */; };
+		FCCAD73726BD8A1500B7BDCF /* MovieError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD73626BD8A1500B7BDCF /* MovieError.swift */; };
+		FCCAD73926BD8AFF00B7BDCF /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD73826BD8AFF00B7BDCF /* MovieController.swift */; };
+		FCCAD73B26BD8B3A00B7BDCF /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD73A26BD8B3A00B7BDCF /* Movies.swift */; };
+		FCCAD73D26BD982E00B7BDCF /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD73C26BD982E00B7BDCF /* MovieListTableViewController.swift */; };
+		FCCAD73F26BD983900B7BDCF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD73E26BD983900B7BDCF /* MovieTableViewCell.swift */; };
+		FCCAD74226BDBB9A00B7BDCF /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCAD74126BDBB9A00B7BDCF /* MovieDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCCAD71726BD873500B7BDCF /* RedoAssesment week4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RedoAssesment week4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCAD71A26BD873500B7BDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCCAD71C26BD873500B7BDCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCCAD72126BD873500B7BDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCCAD72326BD873600B7BDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCAD72626BD873600B7BDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCCAD72826BD873600B7BDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCAD73626BD8A1500B7BDCF /* MovieError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieError.swift; sourceTree = "<group>"; };
+		FCCAD73826BD8AFF00B7BDCF /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		FCCAD73A26BD8B3A00B7BDCF /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		FCCAD73C26BD982E00B7BDCF /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		FCCAD73E26BD983900B7BDCF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		FCCAD74126BDBB9A00B7BDCF /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCAD71426BD873500B7BDCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCAD70E26BD873500B7BDCF = {
+			isa = PBXGroup;
+			children = (
+				FCCAD71926BD873500B7BDCF /* RedoAssesment week4 */,
+				FCCAD71826BD873500B7BDCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCAD71826BD873500B7BDCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD71726BD873500B7BDCF /* RedoAssesment week4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCAD71926BD873500B7BDCF /* RedoAssesment week4 */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73426BD89DC00B7BDCF /* Views */,
+				FCCAD73326BD89D700B7BDCF /* Models */,
+				FCCAD73226BD89CE00B7BDCF /* Helper+Extensions */,
+				FCCAD72F26BD89A300B7BDCF /* Controller */,
+				FCCAD72E26BD899C00B7BDCF /* Resources */,
+			);
+			path = "RedoAssesment week4";
+			sourceTree = "<group>";
+		};
+		FCCAD72E26BD899C00B7BDCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD71C26BD873500B7BDCF /* SceneDelegate.swift */,
+				FCCAD72326BD873600B7BDCF /* Assets.xcassets */,
+				FCCAD72826BD873600B7BDCF /* Info.plist */,
+				FCCAD71A26BD873500B7BDCF /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCCAD72F26BD89A300B7BDCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73026BD89B400B7BDCF /* Model Controller */,
+				FCCAD73126BD89BA00B7BDCF /* View Controller */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCCAD73026BD89B400B7BDCF /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73826BD8AFF00B7BDCF /* MovieController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		FCCAD73126BD89BA00B7BDCF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73C26BD982E00B7BDCF /* MovieListTableViewController.swift */,
+				FCCAD74126BDBB9A00B7BDCF /* MovieDetailViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		FCCAD73226BD89CE00B7BDCF /* Helper+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73626BD8A1500B7BDCF /* MovieError.swift */,
+			);
+			path = "Helper+Extensions";
+			sourceTree = "<group>";
+		};
+		FCCAD73326BD89D700B7BDCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73A26BD8B3A00B7BDCF /* Movies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCCAD73426BD89DC00B7BDCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD74026BD9A2D00B7BDCF /* Custom Cells */,
+				FCCAD73526BD89F900B7BDCF /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCCAD73526BD89F900B7BDCF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD72026BD873500B7BDCF /* Main.storyboard */,
+				FCCAD72526BD873600B7BDCF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FCCAD74026BD9A2D00B7BDCF /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAD73E26BD983900B7BDCF /* MovieTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCAD71626BD873500B7BDCF /* RedoAssesment week4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCAD72B26BD873600B7BDCF /* Build configuration list for PBXNativeTarget "RedoAssesment week4" */;
+			buildPhases = (
+				FCCAD71326BD873500B7BDCF /* Sources */,
+				FCCAD71426BD873500B7BDCF /* Frameworks */,
+				FCCAD71526BD873500B7BDCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RedoAssesment week4";
+			productName = FridayAssesmentAug6th;
+			productReference = FCCAD71726BD873500B7BDCF /* RedoAssesment week4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCAD70F26BD873500B7BDCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FCCAD71626BD873500B7BDCF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = FCCAD71226BD873500B7BDCF /* Build configuration list for PBXProject "RedoAssesment week4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCAD70E26BD873500B7BDCF;
+			productRefGroup = FCCAD71826BD873500B7BDCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCAD71626BD873500B7BDCF /* RedoAssesment week4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCAD71526BD873500B7BDCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCAD72726BD873600B7BDCF /* LaunchScreen.storyboard in Resources */,
+				FCCAD72426BD873600B7BDCF /* Assets.xcassets in Resources */,
+				FCCAD72226BD873500B7BDCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCAD71326BD873500B7BDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCAD73D26BD982E00B7BDCF /* MovieListTableViewController.swift in Sources */,
+				FCCAD73B26BD8B3A00B7BDCF /* Movies.swift in Sources */,
+				FCCAD73F26BD983900B7BDCF /* MovieTableViewCell.swift in Sources */,
+				FCCAD73926BD8AFF00B7BDCF /* MovieController.swift in Sources */,
+				FCCAD74226BDBB9A00B7BDCF /* MovieDetailViewController.swift in Sources */,
+				FCCAD71B26BD873500B7BDCF /* AppDelegate.swift in Sources */,
+				FCCAD73726BD8A1500B7BDCF /* MovieError.swift in Sources */,
+				FCCAD71D26BD873500B7BDCF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCCAD72026BD873500B7BDCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCAD72126BD873500B7BDCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCCAD72526BD873600B7BDCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCAD72626BD873600B7BDCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCCAD72926BD873600B7BDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCAD72A26BD873600B7BDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCCAD72C26BD873600B7BDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDM5JWF95B;
+				INFOPLIST_FILE = "RedoAssesment week4/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DelstunMcCray.RedoAssesment-week4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCCAD72D26BD873600B7BDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDM5JWF95B;
+				INFOPLIST_FILE = "RedoAssesment week4/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DelstunMcCray.RedoAssesment-week4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCAD71226BD873500B7BDCF /* Build configuration list for PBXProject "RedoAssesment week4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCAD72926BD873600B7BDCF /* Debug */,
+				FCCAD72A26BD873600B7BDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCAD72B26BD873600B7BDCF /* Build configuration list for PBXNativeTarget "RedoAssesment week4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCAD72C26BD873600B7BDCF /* Debug */,
+				FCCAD72D26BD873600B7BDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCAD70F26BD873500B7BDCF /* Project object */;
+}
